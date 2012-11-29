@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Saper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Saper</string>
+    <color name="bgc">#ff00ff</color>
+    <string name="loose_string">Defeat</string>
+    <string name="win_string">Victory</string>
+    <color name="start_bg">#bbbbbb</color>
+
+</resources>

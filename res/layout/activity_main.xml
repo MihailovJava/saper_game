@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/start_bg"
+    android:gravity="right" >
+
+    <View
+        android:id="@+id/startIm"
+        android:layout_width="84dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/start" />
+
+    <TextView
+        android:id="@+id/tvMineCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/startIm"
+        android:layout_toRightOf="@+id/startIm"
+        android:gravity="center" />
+
+    <Chronometer
+        android:id="@+id/chron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/startIm"
+        android:layout_marginRight="58dp"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/startIm"
+        android:text="Chronometer" />
+
+    <GridView
+        android:id="@+id/gvMain"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/startIm"
+        android:numColumns="3"
+        android:overScrollMode="always"
+        android:scrollbarAlwaysDrawVerticalTrack="false" >
+
+    </GridView>
+
+</RelativeLayout>
